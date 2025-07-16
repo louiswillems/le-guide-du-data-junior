@@ -156,17 +156,24 @@ h2 {
 }
 
 /* Toutes les images avec classe logo */
-img.logo {
-    max-height: 180px !important;
+/* img.logo {
+    max-height: 90px !important;
     width: auto !important;
-}
+} */
 
 /* Sélecteurs spécifiques pour différentes versions de Jupyter Book */
-.navbar-brand img,
+/* .navbar-brand img,
 .navbar-brand img.logo,
 .navbar-header img,
 #navbar-main-elements img,
 .bd-header img.logo {
-    max-height: 180px !important;
+    max-height: 90px !important;
     width: auto !important;
+} */
+
+/* Masquer le logo partout */
+.navbar-brand img.logo,
+.navbar-header img.logo,
+#navbar-main-elements img {
+    display: none !important;
 }

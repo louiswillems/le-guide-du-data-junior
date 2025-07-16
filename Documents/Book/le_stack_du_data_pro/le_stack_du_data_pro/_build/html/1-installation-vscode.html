@@ -415,37 +415,48 @@
               <section id="installation-vs-code">
                 <h1>1. Installation VS Code<a class="headerlink" href="#installation-vs-code">#</a></h1>
 
-                <p>Dans l'écosystème du développement Python, deux environnements de développement intégrés (IDE)
-                  prédominent actuellement (2025): Visual Studio Code et PyCharm.</p>
+                <div class="intro-section">
+                  <p>Dans l'écosystème du développement Python, deux environnements de développement intégrés (IDE)
+                    prédominent actuellement (2025) : <strong>Visual Studio Code</strong> et <strong>PyCharm</strong>.
+                  </p>
 
-                <p>Ce guide adoptera spécifiquement Visual Studio Code comme plateforme de référence pour
-                  l'implémentation et la configuration des outils d'amélioration de la qualité du code Python. Cette
-                  standardisation permettra une reproduction fidèle des configurations présentées dans les
-                  démonstrations et templates fournis.</p>
+                  <p>Ce guide adopte spécifiquement <strong>Visual Studio Code</strong> comme plateforme de référence
+                    pour l'implémentation et la configuration des outils d'amélioration de la qualité du code Python.
+                    Cette standardisation permet une reproduction fidèle des configurations présentées dans les
+                    démonstrations et templates fournis.</p>
+                </div>
 
                 <h2>Installation macOS (ou système d'exploitation Linux)</h2>
                 <p>Si vous utilisez actuellement macOS ou un système d'exploitation Linux comme Ubuntu, l’installation
                   est la suivante:</p>
 
-                <h3>Téléchargement :</h3>
-                <ul>
-                  <li>Visitez <a href="https://code.visualstudio.com" target="_blank">code.visualstudio.com</a></li>
-                  <li>Cliquez sur le bouton "Télécharger pour Mac"</li>
-                </ul>
+                <section id="telechargement-mac">
+                  <h3>Téléchargement</h3>
+                  <ol>
+                    <li>Visitez <a href="https://code.visualstudio.com" target="_blank"
+                        rel="noopener noreferrer">code.visualstudio.com</a></li>
+                    <li>Cliquez sur le bouton <strong>"Télécharger pour Mac"</strong></li>
+                  </ol>
+                </section>
 
-                <h3>Installation :</h3>
-                <ul>
-                  <li>Ouvrez le fichier téléchargé (.dmg)</li>
-                  <li>Glissez l'icône VS Code dans le dossier Applications</li>
-                  <li>Éjectez l'image disque</li>
-                </ul>
+                <section id="installation-mac">
+                  <h3>Installation</h3>
+                  <ol>
+                    <li>Ouvrez le fichier téléchargé (<code>.dmg</code>)</li>
+                    <li>Glissez l'icône VS Code dans le dossier <strong>Applications</strong></li>
+                    <li>Éjectez l'image disque</li>
+                  </ol>
+                </section>
 
-                <h3>Configuration de la commande <code>code</code> :</h3>
-                <ul>
-                  <li>Lancez VSCode</li>
-                  <li>Appuyez sur Cmd + Shift + P</li>
-                  <li>Tapez "Shell Command" et sélectionnez "Install 'code' command in PATH"</li>
-                </ul>
+                <section id="configuration-commande-code">
+                  <h3>Configuration de la commande <code>code</code></h3>
+                  <ol>
+                    <li>Lancez VS Code</li>
+                    <li>Appuyez sur <kbd>Cmd + Shift + P</kbd> (macOS) ou <kbd>Ctrl + Shift + P</kbd> (Linux)</li>
+                    <li>Tapez <code>Shell Command</code> et sélectionnez <strong>"Install 'code' command in
+                        PATH"</strong></li>
+                  </ol>
+                </section>
 
                 <h2>Installation Windows &amp; WSL2 (Windows Subsystem for Linux)</h2>
                 <p>L'activation de WSL nécessite une demande via le portail de services de l'entreprise : Service Portal
